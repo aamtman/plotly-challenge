@@ -18,7 +18,7 @@ function init() {
       updateMetadata(firstSubject);
     });
   }
-  
+
  init() 
   
   function updateMetadata(sample) {
@@ -67,7 +67,6 @@ function init() {
 //   // tags for each key-value in the metadata.
 //     });
 //   }
-  
   
   function updateCharts(sample) {    
     d3.json("samples.json").then((data) => {
